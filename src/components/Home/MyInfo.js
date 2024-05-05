@@ -25,7 +25,7 @@ const MyInfo = () => {
                 <img
                   src={my_image}
                   width={300}
-                  height={300}
+                  height={250}
                   alt=""
                   className="rounded-circle shadow-2-strong mb-4"/>
                   <div className="mb-2">
