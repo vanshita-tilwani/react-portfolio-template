@@ -2,13 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import portfolio_logo from "../../assets/portfolio_logo.png";
-import { House , FilePerson, PersonWorkspace, Terminal, FileText, EnvelopeAt} from 'react-bootstrap-icons';
+import { House , FilePerson, PersonWorkspace, Terminal, FileText, EnvelopeAt, Briefcase} from 'react-bootstrap-icons';
 function Header() {
     return (
         <Navbar bg="black">
         <Container>
             <Navbar.Brand href="#home">
-                <img src={portfolio_logo} alt='' height={50} width={50}></img>
+                <Briefcase className='mb-1 me-1 icon-color'></Briefcase>
+                <img src={portfolio_logo} alt='' height={30} width={200}></img>
             </Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="" className='font-css'>
