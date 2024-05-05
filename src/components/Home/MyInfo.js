@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   MDBAnimation,
   MDBCard,
@@ -9,6 +8,7 @@ import {
   MDBRow,
 } from "mdbreact";
 import { motion } from 'framer-motion';
+import my_image from '../../assets/my_image.png'
 
 import "./style.css"
 const MyInfo = () => {
@@ -23,7 +23,9 @@ const MyInfo = () => {
               <MDBCard  className="py-5 text-white card-details">
                 <MDBCardBody>
                 <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg"
+                  src={my_image}
+                  width={300}
+                  height={300}
                   alt=""
                   className="rounded-circle shadow-2-strong mb-4"/>
                   <div className="mb-2">
