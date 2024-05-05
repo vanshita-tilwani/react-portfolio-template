@@ -11,12 +11,12 @@ function Header() {
                 <img src={portfolio_logo} alt='' height={50} width={50}></img>
             </Navbar.Brand>
           <Nav className="ml-auto">
-            <Nav.Link href="" className='pink'>Home</Nav.Link>
-            <Nav.Link href="#about" className='pink'>About</Nav.Link>
-            <Nav.Link href="#experience" className='pink'>Work Experience</Nav.Link>
-            <Nav.Link href="#projects" className='pink'>Projects</Nav.Link>
-            <Nav.Link href="#resume" className='pink'>Resume</Nav.Link>
-            <Nav.Link href="#contact" className='pink'>Contact</Nav.Link>
+            <Nav.Link href="" className='font-css'>Home</Nav.Link>
+            <Nav.Link href="#about" className='font-css'>About</Nav.Link>
+            <Nav.Link href="#experience" className='font-css'>Work Experience</Nav.Link>
+            <Nav.Link href="#projects" className='font-css'>Projects</Nav.Link>
+            <Nav.Link href="#resume" className='font-css'>Resume</Nav.Link>
+            <Nav.Link href="#contact" className='font-css'>Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

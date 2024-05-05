@@ -7,11 +7,11 @@ function Footer() {
         <Navbar bg="black" >
             <Container>
             <Navbar.Brand>
-                <div className='pink'>Copyright © VT</div>
+                <div className='font-css'>Copyright © VT</div>
                 
             </Navbar.Brand>
           <Nav className="ml-auto">
-            <Nav.Item href="" className='pink'>Made with love!</Nav.Item>
+            <Nav.Item href="" className='font-css'>Made with love!</Nav.Item>
             <BalloonHeartFill color="#c770f0" size={20}/>
           </Nav>
           <Nav className="ml-auto">
