@@ -1,12 +1,14 @@
 import video from "../../assets/home_bg.mp4"
-import "./Home.css"
+import MyInfo from "./MyInfo";
+import "./style.css"
 
 function Home() {
     return(
-    <div className="main-container">
+    <div className="main-container" style={{ position: 'relative' }}>
         <video  autoPlay loop muted className="homepage-video">
             <source src={video} type="video/mp4" />
         </video>
+        <MyInfo></MyInfo>
     </div>
     );
 }
