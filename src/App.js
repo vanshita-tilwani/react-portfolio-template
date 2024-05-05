@@ -8,6 +8,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        
+        <Footer></Footer>
       </div>
     </Router>
     
