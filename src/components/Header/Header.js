@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
-import { House , FilePerson, PersonWorkspace, Terminal, FileText, EnvelopeAt, Briefcase} from 'react-bootstrap-icons';
+import { House , PersonCircle, PersonWorkspace, Terminal, FileText, EnvelopeAt, Briefcase} from 'react-bootstrap-icons';
 import portfolio_logo from "../../assets/portfolio_logo.png";
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
               Home 
             </Nav.Link>
             <Nav.Link as={Link} to="/about" className='font-css'>
-              <FilePerson className='mb-1 me-1 icon-color'></FilePerson>
+              <PersonCircle className='mb-1 me-1 icon-color'></PersonCircle>
               About</Nav.Link>
             <Nav.Link href="#experience" className='font-css'>
               <PersonWorkspace className='mb-1 me-1 icon-color'></PersonWorkspace>
