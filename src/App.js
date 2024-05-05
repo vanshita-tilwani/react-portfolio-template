@@ -1,6 +1,7 @@
 import './App.css';
 import Header from "./components/Header/Header"
 import Home from "./components/Home/Home"
+import About from './components/About/About';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -17,6 +18,7 @@ function App() {
         <Header></Header>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer></Footer>

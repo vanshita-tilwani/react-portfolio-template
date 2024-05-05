@@ -2,21 +2,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import portfolio_logo from "../../assets/portfolio_logo.png";
+import { Link } from "react-router-dom";
 import { House , FilePerson, PersonWorkspace, Terminal, FileText, EnvelopeAt, Briefcase} from 'react-bootstrap-icons';
 function Header() {
     return (
         <Navbar bg="black">
         <Container>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/">
                 <Briefcase className='mb-1 me-1 icon-color'></Briefcase>
                 <img src={portfolio_logo} alt='' height={30} width={200}></img>
             </Navbar.Brand>
           <Nav className="ml-auto">
-            <Nav.Link href="" className='font-css'>
+            <Nav.Link as={Link} to="/" className='font-css'>
               <House className='mb-1 me-1 icon-color'></House>
               Home 
             </Nav.Link>
-            <Nav.Link href="#about" className='font-css'>
+            <Nav.Link as={Link} to="/about" className='font-css'>
               <FilePerson className='mb-1 me-1 icon-color'></FilePerson>
               About</Nav.Link>
             <Nav.Link href="#experience" className='font-css'>
