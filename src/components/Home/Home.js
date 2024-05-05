@@ -1,5 +1,5 @@
-import video from "../../assets/home_bg.mp4"
 import MyInfo from "./MyInfo";
+import video from "../../assets/home_bg.mp4"
 import "./style.css"
 
 function Home() {

@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import portfolio_logo from "../../assets/portfolio_logo.png";
 import { Link } from "react-router-dom";
 import { House , FilePerson, PersonWorkspace, Terminal, FileText, EnvelopeAt, Briefcase} from 'react-bootstrap-icons';
+import portfolio_logo from "../../assets/portfolio_logo.png";
+
 function Header() {
     return (
         <Navbar bg="black">

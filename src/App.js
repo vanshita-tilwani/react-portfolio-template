@@ -1,15 +1,15 @@
-import './App.css';
 import Header from "./components/Header/Header"
 import Home from "./components/Home/Home"
 import About from './components/About/About';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer/Footer';
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Navigate
 } from "react-router-dom";
-import Footer from './components/Footer/Footer';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (

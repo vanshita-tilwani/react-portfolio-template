@@ -9,8 +9,8 @@ import {
 } from "mdbreact";
 import { motion } from 'framer-motion';
 import my_image from '../../assets/my_image.png'
-
 import "./style.css"
+
 const MyInfo = () => {
   
   return (
