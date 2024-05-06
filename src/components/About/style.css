@@ -1,6 +1,11 @@
-.card-background
+.card-dark-background
 {
     background-color: black !important;
+}
+
+.card-light-background
+{
+    background-color: white !important;
 }
 
 

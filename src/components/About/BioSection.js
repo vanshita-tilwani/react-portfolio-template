@@ -15,7 +15,7 @@ function BioSection() {
         <MDBRow className="justify-content-center text-center">
             <MDBCol className="justify-content-center text-center p-5">
                 <Transition>
-                    <MDBCard  className="text-white card-details card-background">
+                    <MDBCard  className="card-details card-light-background">
                         <MDBCardBody>
                             <strong>About Me: A Glimpse into My Journey</strong>
                         </MDBCardBody>
@@ -26,7 +26,7 @@ function BioSection() {
         <MDBRow className="justify-content-center text-center">
             <MDBCol className="justify-content-center text-center p-5">
                 <Transition>
-                    <MDBCard  className="py-5 text-white card-details card-background">
+                    <MDBCard  className="py-5 text-white card-details card-dark-background">
                         <MDBCardBody>
                         
                         <div className="mb-2">
