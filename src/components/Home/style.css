@@ -23,7 +23,9 @@
     backdrop-filter: blur(15px) !important;
     border: 2px solid rgba(255, 255, 255, 0.05) !important;
     background-clip: padding-box;
-    box-shadow: 1px 1px 1px 1px #c770f0
+    box-shadow: 1px 1px 1px 1px #c770f0;
+    align-content: center;
+    color: white;
 }
 
 .centered-animate {

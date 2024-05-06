@@ -30,12 +30,9 @@ function Variants({ elements }) {
             animate="visible">
             {elements.map((element) => (
                 <motion.li
-                    displayName={"hi"}
                     key={element}
-                    value="Hiii"
-                    className="item"
-                    variants={item}
-                >
+                    className="card-details"
+                    variants={item}>
                     {element}
                 </motion.li>
             ))}
