@@ -5,6 +5,7 @@
     background-position: center;
     width: 100vw !important;
     height: 105vh !important;
+    overflow: scroll;
 }
 
 .max-dimension
