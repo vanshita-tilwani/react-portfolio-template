@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
-import { House , PersonCircle, PersonWorkspace, Terminal, FileText, EnvelopeAt, Briefcase} from 'react-bootstrap-icons';
+import { House , PersonCircle, PersonWorkspace, Terminal, FileText, Briefcase} from 'react-bootstrap-icons';
 import portfolio_logo from "../../assets/portfolio_logo.png";
 
 function Header() {
