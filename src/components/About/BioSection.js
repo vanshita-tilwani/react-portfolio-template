@@ -4,25 +4,28 @@ import {
     MDBCardBody,
     MDBCard
   } from "mdbreact";
-import { motion } from 'framer-motion';
+import Transition from "../Transition";
 import {PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace, BalloonHeart} from 'react-bootstrap-icons';
 import about_logo from '../../assets/about_logo.png';
 import './style.css';
 
 function BioSection() {
     return(
+        <div>
         <MDBRow className="justify-content-center text-center">
             <MDBCol className="justify-content-center text-center p-5">
-                <motion.div
-                whileHover={{ scale: 1.2 }} 
-                whileTap={{ scale: 0.8 }}
-                initial={{ scale: 0 }}
-                animate={{ rotate:360, scale: 1, repeat : Infinity }}
-                transition={{
-                type: "spring",
-                stiffness: 260,
-                damping: 20
-                }}>
+                <Transition>
+                    <MDBCard  className="text-white card-details card-background">
+                        <MDBCardBody>
+                            <strong>About Me: A Glimpse into My Journey</strong>
+                        </MDBCardBody>
+                    </MDBCard>
+                </Transition>
+            </MDBCol>
+        </MDBRow>
+        <MDBRow className="justify-content-center text-center">
+            <MDBCol className="justify-content-center text-center p-5">
+                <Transition>
                     <MDBCard  className="py-5 text-white card-details card-background">
                         <MDBCardBody>
                         
@@ -44,27 +47,20 @@ function BioSection() {
                         </div>
                         </MDBCardBody>
                     </MDBCard>
-                </motion.div>
+                </Transition>
+                
             </MDBCol>
             <MDBCol className="justify-content-center text-center py-5">
-                <motion.div
-                whileHover={{ scale: 1.2 }} 
-                whileTap={{ scale: 0.8 }}
-                initial={{ scale: 0}}
-                animate={{ rotate:360,  scale: 1 }}
-                transition={{
-                type: "spring",
-                stiffness: 260,
-                damping: 20
-                }}>
+                <Transition>
                     <img
                     src={about_logo}
                     width={450}
                     height={300}
                     alt=""/>
-                </motion.div>
+                </Transition>
             </MDBCol>
         </MDBRow>
+        </div>
     );
 }
 
