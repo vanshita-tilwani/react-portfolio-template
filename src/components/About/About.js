@@ -26,7 +26,7 @@ function About() {
                     stiffness: 260,
                     damping: 20
                     }}>
-                        <MDBCard  className="py-5 text-white card-details">
+                        <MDBCard  className="py-5 text-white card-details card-background">
                         <MDBCardBody>
                         
                         <div className="mb-2">
@@ -34,7 +34,7 @@ function About() {
                         <PersonRaisedHand className="icon-color"></PersonRaisedHand>
                         </div>
                         <div className="mb-2">
-                        I am currently pursuing a Master's degree <Laptop className="icon-color"/> in Computer Science at Northeastern University's Khoury College of Computer Sciences in Boston <Buildings className="icon-color"/>.
+                        I am currently pursuing a Master's degree <Laptop className="icon-color"/> in Computer Science at Northeastern University in Boston <Buildings className="icon-color"/>.
                         </div>
                         <div className="mb-2">
                         My interests lie in Fullstack Engineering, UI Development, Backend Development.
@@ -49,7 +49,7 @@ function About() {
 
                 </MDBCol>
 
-                <MDBCol className="justify-content-center text-center p-5">
+                <MDBCol className="justify-content-center text-center">
                     <motion.div
                     whileHover={{ scale: 1.2 }} 
                     whileTap={{ scale: 0.8 }}

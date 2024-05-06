@@ -1,10 +1,15 @@
 .about-section
 {
-    background-image: url('../../assets/background.jpg');
+    background-image: url('../../assets/background.jpeg');
     background-size: cover;
     background-position: center;
     width: 100vw !important;
     height: 105vh !important;
+}
+
+.card-background
+{
+    background-color: black !important;
 }
 
 .max-dimension
