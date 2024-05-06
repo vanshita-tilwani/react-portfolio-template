@@ -6,13 +6,13 @@ import {
     MDBCard
   } from "mdbreact";
 import { motion } from 'framer-motion';
-import {PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace} from 'react-bootstrap-icons'
-import about_logo from '../../assets/about_logo.png'
+import {PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace} from 'react-bootstrap-icons';
+import about_logo from '../../assets/about_logo.png';
 import './About.css';
-
+import '../../main.css';
 function About() {
     return(
-        <div className="about-section">
+        <div className="main-background">
          <MDBContainer className="max-dimension">
             <MDBRow className="justify-content-center text-center">
                 <MDBCol className="justify-content-center text-center p-5">
@@ -66,10 +66,7 @@ function About() {
                   height={450}
                   alt=""
                   />
-
                     </motion.div>
-
-
                 </MDBCol>
             </MDBRow>
           
