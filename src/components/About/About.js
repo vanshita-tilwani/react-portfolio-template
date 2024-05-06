@@ -49,7 +49,7 @@ function About() {
 
                 </MDBCol>
 
-                <MDBCol className="justify-content-center text-center">
+                <MDBCol className="justify-content-center text-center py-3">
                     <motion.div
                     whileHover={{ scale: 1.2 }} 
                     whileTap={{ scale: 0.8 }}
