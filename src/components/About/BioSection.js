@@ -8,7 +8,7 @@ import {
 import { motion } from 'framer-motion';
 import {PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace, BalloonHeart} from 'react-bootstrap-icons';
 import about_logo from '../../assets/about_logo.png';
-import './About.css';
+import './style.css';
 
 function BioSection() {
     return(
