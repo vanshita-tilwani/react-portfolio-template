@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-function Transition({children}) {
+function Animation({children}) {
     return (
         <motion.div
                 whileHover={{ scale: 1.2 }} 
@@ -15,7 +15,6 @@ function Transition({children}) {
             {children}
         </motion.div>
     )
-
 }
 
-export default Transition;
+export default Animation;

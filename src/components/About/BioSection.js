@@ -4,7 +4,7 @@ import {
     MDBCardBody,
     MDBCard
   } from "mdbreact";
-import Transition from "../Transition";
+import Animation from "../Animation";
 import {PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace, BalloonHeart} from 'react-bootstrap-icons';
 import about_logo from '../../assets/about_logo.png';
 import './style.css';
@@ -14,18 +14,18 @@ function BioSection() {
         <div>
         <MDBRow className="justify-content-center text-center">
             <MDBCol className="justify-content-center text-center p-5">
-                <Transition>
+                <Animation>
                     <MDBCard  className="card-details card-light-background">
                         <MDBCardBody>
                             <strong>About Me: A Glimpse into My Journey</strong>
                         </MDBCardBody>
                     </MDBCard>
-                </Transition>
+                </Animation>
             </MDBCol>
         </MDBRow>
         <MDBRow className="justify-content-center text-center">
             <MDBCol className="justify-content-center text-center p-5">
-                <Transition>
+                <Animation>
                     <MDBCard  className="py-5 text-white card-details card-dark-background">
                         <MDBCardBody>
                         
@@ -47,17 +47,17 @@ function BioSection() {
                         </div>
                         </MDBCardBody>
                     </MDBCard>
-                </Transition>
+                </Animation>
                 
             </MDBCol>
             <MDBCol className="justify-content-center text-center py-5">
-                <Transition>
+                <Animation>
                     <img
                     src={about_logo}
                     width={450}
                     height={300}
                     alt=""/>
-                </Transition>
+                </Animation>
             </MDBCol>
         </MDBRow>
         </div>

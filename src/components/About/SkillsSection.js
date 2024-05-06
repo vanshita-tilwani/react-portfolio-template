@@ -4,7 +4,7 @@ import {
     MDBCardBody,
     MDBCard
   } from "mdbreact";
-import Transition from "../Transition";
+import Animation from "../Animation";
 import './style.css';
 
 function SkillsSection() {
@@ -12,13 +12,13 @@ function SkillsSection() {
     return(
         <MDBRow className="justify-content-center text-center">
             <MDBCol className="justify-content-center text-center p-5">
-                <Transition>
+                <Animation>
                     <MDBCard  className="card-details card-light-background">
                         <MDBCardBody>
                             <strong>Skills & Proficiencies: A Palette of Abilities</strong>
                         </MDBCardBody>
                     </MDBCard>
-                </Transition>
+                </Animation>
             </MDBCol>
         </MDBRow>
     );
