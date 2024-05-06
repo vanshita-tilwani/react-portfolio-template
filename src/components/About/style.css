@@ -1,0 +1,16 @@
+.card-background
+{
+    background-color: black !important;
+}
+
+.max-dimension
+{
+    width: 100%;
+    height: 100%;
+}
+
+.about-details
+{
+    align-content: center;
+    padding-left: 84px;
+}

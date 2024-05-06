@@ -48,7 +48,7 @@ function BioSection() {
                         </MDBCard>
                     </motion.div>
                 </MDBCol>
-                <MDBCol className="justify-content-center text-center py-3">
+                <MDBCol className="justify-content-center text-center py-5">
                     <motion.div
                     whileHover={{ scale: 1.2 }} 
                     whileTap={{ scale: 0.8 }}
@@ -61,8 +61,8 @@ function BioSection() {
                     }}>
                         <img
                         src={about_logo}
-                        width={400}
-                        height={450}
+                        width={450}
+                        height={300}
                         alt=""/>
                     </motion.div>
                 </MDBCol>
