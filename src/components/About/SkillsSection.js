@@ -31,23 +31,24 @@ function SkillsSection() {
             </MDBRow>
             <MDBRow className="justify-content-center text-center">
                 <MDBCol className="justify-content-center text-center p-5">
-                    <Variants elements={[<Animation><DiJava size='4rem' /></Animation>,
+                    <Variants elements={[<Animation><DiJava size='5rem' /></Animation>,
                     <Animation><TbBrandCSharp className="mx-auto" size='4rem' /></Animation>,
                     <Animation><DiJavascript1 size='4rem' /></Animation>,
-                    <Animation><DiReact size='4rem' /></Animation>,
+                    <Animation><DiReact size='6rem' /></Animation>,
                     <Animation><DiNodejs size='6rem' /></Animation>,
-                    <Animation><DiPython size='4rem' /></Animation>,
-                    <Animation><DiDlang size='4rem' /></Animation>,
+                    <Animation><DiPython size='6rem' /></Animation>,
+                    <Animation><DiDlang size='6rem' /></Animation>,
                     <Animation><DiRuby size='4rem' /></Animation>,
                     <Animation><SiMysql size='4rem' /></Animation>,
                     <Animation><SiMicrosoftsqlserver size='4rem' /></Animation>,
                     <Animation><SiMongodb size='4rem' /></Animation>,
-                    <Animation><SiRedis size='4rem' /></Animation>, <Animation><FaGithub size='3rem' /></Animation>,
-                    <Animation><VscVscode size='3rem' /></Animation>,
-                    <Animation><SiPostman size='3rem' /></Animation>,
-                    <Animation><SiIntellijidea size='2rem' /></Animation>,
-                    <Animation><SiElasticsearch size='2.5rem' /></Animation>,
-                    <Animation><SiKibana size='2.5rem' /></Animation>]}>
+                    <Animation><SiRedis size='4rem' /></Animation>,
+                    <Animation><FaGithub size='4rem' /></Animation>,
+                    <Animation><VscVscode size='4rem' /></Animation>,
+                    <Animation><SiPostman size='4rem' /></Animation>,
+                    <Animation><SiIntellijidea size='3.5rem' /></Animation>,
+                    <Animation><SiElasticsearch size='3.5rem' /></Animation>,
+                    <Animation><SiKibana size='3.5rem' /></Animation>]}>
                     </Variants>
                 </MDBCol>
             </MDBRow>
