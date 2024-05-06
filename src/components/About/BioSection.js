@@ -6,23 +6,15 @@ import {
 } from "mdbreact";
 import Animation from "../Animation";
 import { PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace, BalloonHeart } from 'react-bootstrap-icons';
+import SectionHeading from "./SectionHeading";
 import about_logo from '../../assets/about_logo.png';
 import './style.css';
+
 
 function BioSection() {
     return (
         <div>
-            <MDBRow className="justify-content-center text-center">
-                <MDBCol className="justify-content-center text-center p-5">
-                    <Animation>
-                        <MDBCard className="card-details card-light-background">
-                            <MDBCardBody>
-                                <strong>About Me: A Glimpse into My Journey</strong>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </Animation>
-                </MDBCol>
-            </MDBRow>
+            <SectionHeading heading={"About Me: A Glimpse into My Journey"}></SectionHeading>
             <MDBRow className="justify-content-center text-center">
                 <MDBCol className="justify-content-center text-center p-5">
                     <Animation>

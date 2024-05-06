@@ -1,8 +1,6 @@
 import {
     MDBCol,
     MDBRow,
-    MDBCardBody,
-    MDBCard
 } from "mdbreact";
 import { DiJavascript1, DiReact, DiJava, DiPython, DiDlang, DiNodejs, DiRuby } from "react-icons/di";
 import { SiMysql, SiMicrosoftsqlserver, SiMongodb, SiRedis, SiPostman, SiKibana, SiElasticsearch, SiIntellijidea } from "react-icons/si";
@@ -10,25 +8,17 @@ import { TbBrandCSharp } from "react-icons/tb";
 import { FaGithub } from 'react-icons/fa'
 import { VscVscode } from "react-icons/vsc";
 import Animation from "../Animation";
-import './style.css';
 import Variants from "../Variants";
+import SectionHeading from "./SectionHeading";
+import './style.css';
+
 
 
 function SkillsSection() {
 
     return (
         <div>
-            <MDBRow className="justify-content-center text-center">
-                <MDBCol className="justify-content-center text-center p-5">
-                    <Animation>
-                        <MDBCard className="card-details card-light-background">
-                            <MDBCardBody>
-                                <strong>Skills & Proficiencies: A Palette of Abilities</strong>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </Animation>
-                </MDBCol>
-            </MDBRow>
+            <SectionHeading heading={"Skills & Proficiencies: A Palette of Abilities"}></SectionHeading>
             <MDBRow className="justify-content-center text-center">
                 <MDBCol className="justify-content-center text-center p-5">
                     <Variants elements={[<Animation><DiJava size='5rem' /></Animation>,
