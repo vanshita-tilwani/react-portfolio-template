@@ -6,7 +6,7 @@ import {
     MDBCard
   } from "mdbreact";
 import { motion } from 'framer-motion';
-import {PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace} from 'react-bootstrap-icons';
+import {PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace, BalloonHeart} from 'react-bootstrap-icons';
 import about_logo from '../../assets/about_logo.png';
 import './About.css';
 import '../../main.css';
@@ -30,17 +30,20 @@ function About() {
                         <MDBCardBody>
                         
                         <div className="mb-2">
-                        Hi There!
+                        <strong>Hi There!</strong>
                         <PersonRaisedHand className="icon-color"></PersonRaisedHand>
                         </div>
                         <div className="mb-2">
-                        I am currently pursuing a Master's degree <Laptop className="icon-color"/> in Computer Science at Northeastern University in Boston <Buildings className="icon-color"/>.
+                        I am currently pursuing a <strong>Master's</strong> degree<Laptop className="icon-color"/> in <strong>Computer Science</strong> at <strong>Northeastern University</strong> in Boston <Buildings className="icon-color"/>.
                         </div>
                         <div className="mb-2">
-                        My interests lie in Fullstack Engineering, UI Development, Backend Development. <CodeSlash className="icon-color"/>
+                        My interests lie in <strong>Fullstack Engineering, UI Development, Backend Development</strong> <CodeSlash className="icon-color"/>
                         </div>
                         <div className="mb-2">
-                        Prior to beginning my studies at Northeastern, I spent about fours years working as a Software Engineer <PersonWorkspace className="icon-color"/>  at companies like ServiceNow and Planful.
+                        Prior to beginning my studies at Northeastern, I spent about <strong>fours years</strong> working as a <strong>Software Engineer</strong> <PersonWorkspace className="icon-color"/>  at companies like <strong>ServiceNow</strong> and <strong>Planful</strong>.
+                        </div>
+                        <div className="mb-2">
+                        <strong>P.S : As you may have suspected, I do love love dark themes! </strong><BalloonHeart className="icon-color"/>
                         </div>
                         </MDBCardBody>
                         </MDBCard>
