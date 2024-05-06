@@ -6,3 +6,9 @@
     width: 100vw !important;
     height: 105vh !important;
 }
+
+.max-dimension
+{
+    width: 100%;
+    height: 100%;
+}

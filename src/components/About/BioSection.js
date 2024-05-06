@@ -1,6 +1,5 @@
 import {
     MDBCol,
-    MDBContainer,
     MDBRow,
     MDBCardBody,
     MDBCard
@@ -12,20 +11,19 @@ import './style.css';
 
 function BioSection() {
     return(
-        <MDBContainer className="max-dimension">
-            <MDBRow className="justify-content-center text-center">
-                <MDBCol className="justify-content-center text-center p-5">
-                    <motion.div
-                    whileHover={{ scale: 1.2 }} 
-                    whileTap={{ scale: 0.8 }}
-                    initial={{ scale: 0 }}
-                    animate={{ rotate:360, scale: 1, repeat : Infinity }}
-                    transition={{
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20
-                    }}>
-                        <MDBCard  className="py-5 text-white card-details card-background">
+        <MDBRow className="justify-content-center text-center">
+            <MDBCol className="justify-content-center text-center p-5">
+                <motion.div
+                whileHover={{ scale: 1.2 }} 
+                whileTap={{ scale: 0.8 }}
+                initial={{ scale: 0 }}
+                animate={{ rotate:360, scale: 1, repeat : Infinity }}
+                transition={{
+                type: "spring",
+                stiffness: 260,
+                damping: 20
+                }}>
+                    <MDBCard  className="py-5 text-white card-details card-background">
                         <MDBCardBody>
                         
                         <div className="mb-2">
@@ -45,30 +43,28 @@ function BioSection() {
                             <strong>P.S : As you may have suspected, I do love love dark themes! </strong><BalloonHeart className="icon-color"/>
                         </div>
                         </MDBCardBody>
-                        </MDBCard>
-                    </motion.div>
-                </MDBCol>
-                <MDBCol className="justify-content-center text-center py-5">
-                    <motion.div
-                    whileHover={{ scale: 1.2 }} 
-                    whileTap={{ scale: 0.8 }}
-                    initial={{ scale: 0}}
-                    animate={{ rotate:360,  scale: 1 }}
-                    transition={{
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20
-                    }}>
-                        <img
-                        src={about_logo}
-                        width={450}
-                        height={300}
-                        alt=""/>
-                    </motion.div>
-                </MDBCol>
-            </MDBRow>
-          
-         </MDBContainer>
+                    </MDBCard>
+                </motion.div>
+            </MDBCol>
+            <MDBCol className="justify-content-center text-center py-5">
+                <motion.div
+                whileHover={{ scale: 1.2 }} 
+                whileTap={{ scale: 0.8 }}
+                initial={{ scale: 0}}
+                animate={{ rotate:360,  scale: 1 }}
+                transition={{
+                type: "spring",
+                stiffness: 260,
+                damping: 20
+                }}>
+                    <img
+                    src={about_logo}
+                    width={450}
+                    height={300}
+                    alt=""/>
+                </motion.div>
+            </MDBCol>
+        </MDBRow>
     );
 }
 
