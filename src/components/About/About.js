@@ -1,9 +1,14 @@
+import {
+    MDBContainer
+  } from "mdbreact";
+import './About.css';
 
 function About() {
-
     return(
-        <div>
-            Hello
+        <div className="about-section">
+         <MDBContainer>
+          
+         </MDBContainer>
         </div>
     );
 }

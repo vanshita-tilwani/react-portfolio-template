@@ -4,7 +4,8 @@
     height: 100vh !important;
     display: flex !important;
     justify-content: center !important;
-    align-items: center !important
+    align-items: center !important;
+    position: relative;
 }
 
 .homepage-video 

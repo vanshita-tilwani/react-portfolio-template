@@ -30,9 +30,6 @@ function Header() {
             <Nav.Link href="#resume" className='font-css'>
               <FileText className='mb-1 me-1 icon-color'></FileText>
               Resume</Nav.Link>
-            <Nav.Link href="#contact" className='font-css'>
-              <EnvelopeAt className='mb-1 me-1 icon-color'></EnvelopeAt>
-              Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
