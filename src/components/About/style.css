@@ -1,17 +1,12 @@
-.card-dark-background
-{
+.card-dark-background {
     background-color: black !important;
 }
 
-.card-light-background
-{
+.card-light-background {
     background-color: white !important;
 }
 
-
-
-.about-details
-{
+.about-details {
     align-content: center;
     padding-left: 84px;
 }
