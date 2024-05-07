@@ -32,10 +32,8 @@ function SlideInTransition({ children }) {
                 in={isVisible}
                 timeout={2000}
                 classNames="transition"
-                unmountOnExit
-            >
+                unmountOnExit>
                 {children}
-
             </CSSTransition>
         </div>
     );
