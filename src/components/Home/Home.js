@@ -1,6 +1,6 @@
 import MyInfo from "./MyInfo";
 import video from "../../assets/home_bg.mp4"
-import "./style.css"
+import "../../main.css"
 
 function Home() {
     return (
