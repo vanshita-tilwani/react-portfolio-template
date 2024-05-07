@@ -33,10 +33,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.line-divider {
-    width: 50%;
-    height: 1px;
-    background-color: #BCBDC0;
-    margin: 10px 0;
-}

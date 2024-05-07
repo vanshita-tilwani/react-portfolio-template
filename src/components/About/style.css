@@ -22,3 +22,10 @@
     padding: 10px;
     border-radius: 50px;
 }
+
+.line-divider {
+    width: 25%;
+    height: 1px;
+    background-color: rgb(24, 24, 27);
+    margin: 10px 0;
+}
