@@ -19,7 +19,6 @@ function SectionHeading({ heading }) {
             </Animation>
         </MDBCol>
     </MDBRow>);
-
 }
 
 export default SectionHeading;

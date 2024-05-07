@@ -1,5 +1,6 @@
 import BioSection from './BioSection';
 import SkillsSection from './SkillsSection';
+import ContactSection from './ContactSection';
 import {
     MDBContainer
 } from "mdbreact";
@@ -11,6 +12,7 @@ function About() {
             <MDBContainer className="max-dimension">
                 <BioSection></BioSection>
                 <SkillsSection></SkillsSection>
+                <ContactSection></ContactSection>
             </MDBContainer>
 
         </div>
