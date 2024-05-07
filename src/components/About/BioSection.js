@@ -7,9 +7,9 @@ import {
 import Animation from "../Animation";
 import { PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace, BalloonHeart } from 'react-bootstrap-icons';
 import SectionHeading from "./SectionHeading";
+import SectionFooter from "./SectionFooter";
 import about_logo from '../../assets/about_logo.png';
 import '../../main.css';
-
 
 function BioSection() {
     return (
@@ -49,6 +49,7 @@ function BioSection() {
                         alt="" />
                 </MDBCol>
             </MDBRow>
+            <SectionFooter></SectionFooter>
         </div>
     );
 }

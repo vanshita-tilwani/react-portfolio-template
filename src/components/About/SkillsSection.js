@@ -10,6 +10,7 @@ import { VscVscode } from "react-icons/vsc";
 import Animation from "../Animation";
 import Variants from "../Variants";
 import SectionHeading from "./SectionHeading";
+import SectionFooter from "./SectionFooter";
 import '../../main.css';
 
 function SkillsSection() {
@@ -40,6 +41,7 @@ function SkillsSection() {
                     </Variants>
                 </MDBCol>
             </MDBRow>
+            <SectionFooter></SectionFooter>
         </div>
     );
 }
