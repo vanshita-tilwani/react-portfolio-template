@@ -1,11 +1,9 @@
 import {
     MDBCol,
     MDBRow,
-    MDBCardBody,
-    MDBCard
 } from "mdbreact";
-import Animation from "../Animation";
-import './style.css';
+
+import '../../main.css';
 
 function SectionHeading({ heading }) {
     return (<MDBRow className="justify-content-center text-center">

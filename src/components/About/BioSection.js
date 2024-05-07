@@ -8,7 +8,7 @@ import Animation from "../Animation";
 import { PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace, BalloonHeart } from 'react-bootstrap-icons';
 import SectionHeading from "./SectionHeading";
 import about_logo from '../../assets/about_logo.png';
-import './style.css';
+import '../../main.css';
 
 
 function BioSection() {

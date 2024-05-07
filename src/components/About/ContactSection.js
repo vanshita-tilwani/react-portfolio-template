@@ -3,7 +3,7 @@ import { MDBCol, MDBRow, MDBCard, MDBCardBody } from "mdbreact";
 import { EnvelopeAt } from "react-bootstrap-icons";
 import SlideInTransition from "../SlideInTransition";
 import { openEmail } from "../Util";
-import './style.css';
+import '../../main.css';
 
 function ContactSection() {
     return (

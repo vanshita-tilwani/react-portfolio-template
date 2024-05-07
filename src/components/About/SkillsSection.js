@@ -10,7 +10,7 @@ import { VscVscode } from "react-icons/vsc";
 import Animation from "../Animation";
 import Variants from "../Variants";
 import SectionHeading from "./SectionHeading";
-import './style.css';
+import '../../main.css';
 
 function SkillsSection() {
 
