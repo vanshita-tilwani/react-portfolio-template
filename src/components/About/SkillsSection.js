@@ -18,7 +18,7 @@ function SkillsSection() {
 
     return (
         <div>
-            <SectionHeading heading={"Skills & Proficiencies: A Palette of Abilities"}></SectionHeading>
+            <SectionHeading heading={"Skills & Proficiencies: My Bag of Tricks (no rabbits included... unless you're into that)"}></SectionHeading>
             <MDBRow className="justify-content-center text-center">
                 <MDBCol className="justify-content-center text-center p-5">
                     <Variants elements={[<Animation><DiJava size='5rem' /></Animation>,

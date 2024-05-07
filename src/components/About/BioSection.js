@@ -14,7 +14,7 @@ import './style.css';
 function BioSection() {
     return (
         <div>
-            <SectionHeading heading={"About Me: A Glimpse into My Journey"}></SectionHeading>
+            <SectionHeading heading={"About Me: The Chronicles of a Human in Beta Version (glitches included)"}></SectionHeading>
             <MDBRow className="justify-content-center text-center">
                 <MDBCol className="justify-content-center text-center p-5">
                     <Animation>
