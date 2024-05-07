@@ -16,7 +16,7 @@ function ContactSection() {
                         <MDBCard className="py-5 text-white rounded-circle shadow-2-strong m-4 card-details card-dark-background">
                             <MDBCardBody>
                                 <div className="text-white">
-                                    <EnvelopeAt className="icon-color p-2" width={80} height={80} onClick={openEmail} size='5rem' />
+                                    <EnvelopeAt className="p-2" width={80} height={80} onClick={openEmail} size='5rem' />
                                     <div className="m-2">
                                         Want to chat? Shoot me an email.<br />
                                         Whether it's about my projects, ideas for collaboration, or just to say hi, I'm all ears! Looking forward to hearing from you!
