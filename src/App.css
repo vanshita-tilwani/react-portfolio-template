@@ -3,16 +3,6 @@ html {
   --imp-icon-color: #c770f0;
 }
 
-
-.font-css {
-  color: var(--imp-text-color) !important;
-}
-
-.icon-color {
-  color: var(--imp-icon-color) !important;
-  size: 20;
-}
-
 .App {
   text-align: center;
 }
