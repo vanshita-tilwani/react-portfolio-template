@@ -7,10 +7,9 @@ function Footer() {
   return (
     <Navbar bg="black" >
       <Container>
-        <Navbar.Brand>
-          <div className='font-css'>Copyright <CCircle className='icon-color'></CCircle> VT</div>
-
-        </Navbar.Brand>
+        <Nav className="ml-auto">
+          <div className='font-css'>Copyright <CCircle className='icon-color'></CCircle> Vanshita Tilwani</div>
+        </Nav>
         <Nav className="ml-auto">
           <Nav.Item href="" className='font-css'>Made with love!</Nav.Item>
           <BalloonHeartFill className='icon-color' />
