@@ -10,9 +10,11 @@ import './style.css';
 function SectionHeading({ heading }) {
     return (<MDBRow className="justify-content-center text-center">
         <MDBCol className="justify-content-center text-white text-center p-5">
-            <strong>{heading}</strong>
+            <div>
+                {heading}
+            </div>
         </MDBCol>
-    </MDBRow>);
+    </MDBRow >);
 }
 
 export default SectionHeading;
