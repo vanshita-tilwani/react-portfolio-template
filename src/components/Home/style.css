@@ -18,7 +18,7 @@
 }
 
 .card-details {
-    background-color: rgba(24, 24, 16, 0.2) !important;
+    background-color: var(--imp-background-color) !important;
     border-radius: 2em !important;
     backdrop-filter: blur(15px) !important;
     border: 2px solid rgba(255, 255, 255, 0.05) !important;
@@ -32,4 +32,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.line-divider {
+    width: 50%;
+    height: 1px;
+    background-color: #BCBDC0;
+    margin: 10px 0;
 }
