@@ -109,9 +109,27 @@
     backdrop-filter: blur(15px) !important;
     border: 2px solid rgba(255, 255, 255, 0.05) !important;
     background-clip: padding-box;
-    box-shadow: 1px 1px 1px 1px #c770f0;
+
     align-content: center;
     color: white;
+
+    background: radial-gradient(#131219, black) padding-box, linear-gradient(var(--angle),
+            #070707,
+            #c770f0) border-box !important;
+    animation: 4s rotate linear infinite !important;
+}
+
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
 }
 
 .centered-animate {
