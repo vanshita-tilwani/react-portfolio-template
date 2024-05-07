@@ -12,8 +12,6 @@ import Variants from "../Variants";
 import SectionHeading from "./SectionHeading";
 import './style.css';
 
-
-
 function SkillsSection() {
 
     return (

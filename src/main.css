@@ -11,3 +11,30 @@
     width: 100%;
     height: 100%;
 }
+
+.transition-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.transition-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.transition-enter-done {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.transition-exit {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.transition-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
