@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
 import { House, PersonCircle, PersonWorkspace, Terminal, FileText, Briefcase } from 'react-bootstrap-icons';
 import portfolio_logo from "../../assets/portfolio_logo.png";
+import '../../main.css'
 
 function Header() {
   return (

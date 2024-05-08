@@ -1,5 +1,14 @@
 /* Common CSS - used across all the component! */
 
+:root {
+    --imp-text-color: white;
+    --imp-icon-color: #c770f0;
+    --imp-background-color: black;
+    --imp-divider-color: rgb(24, 24, 27);
+    --imp-border-color: rgba(255, 255, 255, 0.05);
+    --imp-translucent-color: rgba(0, 0, 0, 0.175);
+}
+
 .font-css {
     color: var(--imp-text-color) !important;
 }
@@ -11,7 +20,7 @@
 
 
 .main-background {
-    background-color: black;
+    background-color: var(--imp-background-color);
     background-size: cover;
     background-position: center;
     width: 100vw !important;
@@ -53,11 +62,7 @@
 }
 
 .card-dark-background {
-    background-color: black !important;
-}
-
-.card-light-background {
-    background-color: #f5f5f5 !important;
+    background-color: var(--imp-background-color) !important;
 }
 
 .about-details {
@@ -80,7 +85,7 @@
 .line-divider {
     width: 25%;
     height: 1px;
-    background-color: rgb(24, 24, 27);
+    background-color: var(--imp-divider-color);
     margin: 10px 0;
 }
 
@@ -103,22 +108,25 @@
     z-index: -1,
 }
 
+.centered-animate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-details {
     background-color: var(--imp-background-color) !important;
     border-radius: 2em !important;
     backdrop-filter: blur(15px) !important;
-    border: 2px solid rgba(255, 255, 255, 0.05) !important;
+    border: 2px solid var(--imp-translucent-color) !important;
     background-clip: padding-box;
-
     align-content: center;
-    color: white;
-
-    background: radial-gradient(#131219, black) padding-box, linear-gradient(var(--angle),
-            #070707,
-            #c770f0) border-box !important;
+    color: var(--imp-text-color);
+    background: radial-gradient(var(--imp-background-color), var(--imp-background-color)) padding-box, linear-gradient(var(--angle),
+            var(--imp-background-color),
+            var(--imp-icon-color)) border-box !important;
     animation: 4s rotate linear infinite !important;
 }
-
 
 @keyframes rotate {
     to {
@@ -130,10 +138,4 @@
     syntax: "<angle>";
     initial-value: 0deg;
     inherits: false;
-}
-
-.centered-animate {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
