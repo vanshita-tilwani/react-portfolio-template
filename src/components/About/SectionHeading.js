@@ -1,7 +1,7 @@
 import {
     MDBCol,
     MDBRow,
-} from "mdbreact";
+} from "mdb-react-ui-kit";
 
 import '../../main.css';
 

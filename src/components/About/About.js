@@ -3,7 +3,7 @@ import SkillsSection from './SkillsSection';
 import ContactSection from './ContactSection';
 import {
     MDBContainer
-} from "mdbreact";
+} from "mdb-react-ui-kit";
 import '../../main.css';
 
 function About() {

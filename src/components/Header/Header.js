@@ -23,7 +23,7 @@ function Header() {
           <Nav.Link as={Link} to="/about" className='font-css'>
             <PersonCircle className='mb-1 me-1 icon-color'></PersonCircle>
             About</Nav.Link>
-          <Nav.Link href="#experience" className='font-css'>
+          <Nav.Link as={Link} to="/experience" className='font-css'>
             <PersonWorkspace className='mb-1 me-1 icon-color'></PersonWorkspace>
             Work Experience</Nav.Link>
           <Nav.Link href="#projects" className='font-css'>

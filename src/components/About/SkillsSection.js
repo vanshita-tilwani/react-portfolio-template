@@ -1,7 +1,7 @@
 import {
     MDBCol,
     MDBRow,
-} from "mdbreact";
+} from "mdb-react-ui-kit";
 import { DiJavascript1, DiReact, DiJava, DiPython, DiDlang, DiNodejs, DiRuby } from "react-icons/di";
 import { SiMysql, SiMicrosoftsqlserver, SiMongodb, SiRedis, SiPostman, SiKibana, SiElasticsearch, SiIntellijidea } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";

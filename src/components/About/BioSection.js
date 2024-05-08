@@ -3,7 +3,7 @@ import {
     MDBRow,
     MDBCardBody,
     MDBCard
-} from "mdbreact";
+} from "mdb-react-ui-kit";
 import Animation from "../Animation";
 import { PersonRaisedHand, Laptop, Buildings, CodeSlash, PersonWorkspace, BalloonHeart } from 'react-bootstrap-icons';
 import SectionHeading from "./SectionHeading";

@@ -1,5 +1,5 @@
 import SectionHeading from "./SectionHeading";
-import { MDBCol, MDBRow, MDBCard, MDBCardBody } from "mdbreact";
+import { MDBCol, MDBRow, MDBCard, MDBCardBody } from "mdb-react-ui-kit";
 import { EnvelopeAt } from "react-bootstrap-icons";
 import SlideInTransition from "../SlideInTransition";
 import { openEmail } from "../Util";
