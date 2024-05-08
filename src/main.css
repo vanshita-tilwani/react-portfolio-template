@@ -9,6 +9,21 @@
     --imp-translucent-color: rgba(0, 0, 0, 0.175);
 }
 
+.theme-menu {
+    background-color: var(--imp-background-color) !important;
+    color: var(--imp-text-color) !important;
+}
+
+.theme-menu-item-neon-purple {
+    background-color: var(--imp-background-color) !important;
+    color: #c770f0 !important;
+}
+
+.theme-menu-item-neon-pink {
+    background-color: var(--imp-background-color) !important;
+    color: #F535AA !important;
+}
+
 .font-css {
     color: var(--imp-text-color) !important;
 }
