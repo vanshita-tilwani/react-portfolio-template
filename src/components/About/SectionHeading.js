@@ -9,7 +9,7 @@ function SectionHeading({ heading }) {
     return (<MDBRow className="justify-content-center text-center">
         <MDBCol className="justify-content-center text-white text-center p-5">
             <div>
-                {heading}
+                <h5>{heading}</h5>
             </div>
         </MDBCol>
     </MDBRow >);
