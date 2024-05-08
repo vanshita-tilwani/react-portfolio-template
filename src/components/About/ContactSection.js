@@ -13,7 +13,7 @@ function ContactSection() {
                 <div className="d-flex justify-content-center w-50">
                     <MDBCol className="justify-content-center text-center p-3">
                         <SlideInTransition>
-                            <MDBCard className="py-5 text-white rounded-circle shadow-2-strong m-4 card-details card-dark-background">
+                            <MDBCard className="py-5 text-white rounded-circle shadow-2-strong m-4 card-details">
                                 <MDBCardBody>
                                     <div className="text-white">
                                         <EnvelopeAt className="p-2" width={80} height={80} onClick={openEmail} size='5rem' />
