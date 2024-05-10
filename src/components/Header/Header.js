@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
 import { House, PersonCircle, PersonWorkspace, Terminal, FileText, Briefcase } from 'react-bootstrap-icons';
 import portfolio_logo from "../../assets/logo.png";
-import ThemeToggler from '../ThemeToggler';
 import '../../main.css'
 
 function Header() {
@@ -32,7 +31,6 @@ function Header() {
           <Nav.Link href="#resume" className='font-css'>
             <FileText className='mb-1 me-1 icon-color'></FileText>
             Resume</Nav.Link>
-          <ThemeToggler></ThemeToggler>
         </Nav>
       </Container>
     </Navbar>
