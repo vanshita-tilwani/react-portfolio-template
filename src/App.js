@@ -16,11 +16,13 @@ function App() {
     <Router>
       <div className="App">
         <Header></Header>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+
         <Footer></Footer>
       </div>
     </Router>

@@ -8,7 +8,7 @@ import '../../main.css';
 
 function About() {
     return (
-        <div className="main-background">
+        <div className="about-container on-animation">
             <MDBContainer className="max-dimension">
                 <BioSection></BioSection>
                 <SkillsSection></SkillsSection>
