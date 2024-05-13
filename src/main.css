@@ -14,6 +14,12 @@
     --imp-translucent-color: rgba(0, 0, 0, 0.175);
 }
 
+.App {
+    text-align: center;
+    background: var(--imp-background-color);
+
+}
+
 .theme-menu {
     background-color: var(--imp-background-color) !important;
     color: var(--imp-text-color) !important;

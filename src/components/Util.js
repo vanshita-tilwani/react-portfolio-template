@@ -8,10 +8,10 @@ const openEmail = () => {
 
 const routeAnimation = {
     initial: {
-        y: "90vh",
+        x: "100vw",
     },
     final: {
-        y: "0vh",
+        x: "0vw",
         transition: {
             type: "spring",
             mass: 0.4,
