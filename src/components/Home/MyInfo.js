@@ -10,7 +10,7 @@ const MyInfo = () => {
     <Container>
       <div className='d-flex justify-content-center'>
         <Box>
-          <div className="py-5 text-white card-details">
+          <div className="p-5 text-white card-details">
             <div>
               <img
                 src={my_image}
@@ -18,13 +18,13 @@ const MyInfo = () => {
                 height={250}
                 alt=""
                 className="rounded-circle shadow-2-strong mb-4" />
-              <div className="mb-2">
+              <div style={{ textAlign: 'center' }}>
                 Vanshita Tilwani
               </div>
             </div>
           </div>
         </Box>
-        <Box md="4" className="mb-5 mb-md-1 py-5 text-white centered-animate">
+        <Box md="4" className="mb-5 mb-md-1 p-5 text-white centered-animate">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
