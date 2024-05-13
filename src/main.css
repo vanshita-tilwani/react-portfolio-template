@@ -434,8 +434,7 @@ p {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    height: 80%;
     background: linear-gradient(135deg, var(--indigo-9) 0%, var(--imp-icon-color) 100%);
     border-radius: 6px;
     padding: 25px;
