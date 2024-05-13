@@ -5,7 +5,6 @@ import my_image from '../../assets/my_image.png';
 import "../../main.css"
 
 const MyInfo = () => {
-
   return (
     <Container>
       <div className='d-flex justify-content-center'>
@@ -36,10 +35,7 @@ const MyInfo = () => {
             </h1>
           </motion.div>
         </Box>
-
       </div>
-
-
     </Container>
   );
 };

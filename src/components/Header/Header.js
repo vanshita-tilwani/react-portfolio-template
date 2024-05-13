@@ -10,8 +10,8 @@ function Header() {
   return (
     <div className='side-by-side-components'>
       <a className='side-by-side-components p-3' href='/' >
-        <BackpackIcon href='/' width={30} height={30} className='icon-color'></BackpackIcon>
-        <img href='/' src={portfolio_logo} alt='' height={30} width={200}></img>
+        <BackpackIcon href='/' width={30} height={30} className='icon-color' />
+        <img href='/' src={portfolio_logo} alt='' height={30} width={200} />
       </a>
       <NavigationMenu.Root className="NavigationMenuRoot">
         <NavigationMenu.List className="NavigationMenuList p-3">
@@ -40,7 +40,6 @@ function Header() {
                     </a>
                   </NavigationMenu.Link>
                 </li>
-
                 <ListItem href="/about/#bio-section" title="About Me">
                   The Chronicles of a Human in Beta Version (glitches included)
                 </ListItem>
@@ -53,7 +52,6 @@ function Header() {
               </ul>
             </NavigationMenu.Content>
           </NavigationMenu.Item>
-
           <NavigationMenu.Item>
             <NavigationMenu.Trigger className="NavigationMenuTrigger">
               <CodeIcon />Projects <CaretDownIcon className="CaretDown" aria-hidden />
@@ -81,30 +79,25 @@ function Header() {
               </ul>
             </NavigationMenu.Content>
           </NavigationMenu.Item>
-
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/">
               <LaptopIcon className='mb-1 me-1' />Work Experience
             </NavigationMenu.Link>
           </NavigationMenu.Item>
-
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/ß">
               <FileTextIcon className='me-1' />Resume
             </NavigationMenu.Link>
           </NavigationMenu.Item>
-
           <NavigationMenu.Indicator className="NavigationMenuIndicator">
             <div className="Arrow" />
           </NavigationMenu.Indicator>
         </NavigationMenu.List>
-
         <div className="ViewportPosition">
           <NavigationMenu.Viewport className="NavigationMenuViewport" />
         </div>
       </NavigationMenu.Root>
     </div>
-
   );
 }
 
