@@ -32,9 +32,9 @@ function About() {
             exit="exit"
             className="about-container">
             <MDBContainer className="max-dimension">
-                <div ref={bioSectionRef} id='bio-section'><BioSection></BioSection></div>
-                <div ref={skillsSectionRef} id='skills-section'><SkillsSection></SkillsSection></div>
-                <div ref={contactSectionRef} id='contact-section'><ContactSection></ContactSection></div>
+                <div ref={bioSectionRef} id='bio-section'><BioSection /></div>
+                <div ref={skillsSectionRef} id='skills-section'><SkillsSection /></div>
+                <div ref={contactSectionRef} id='contact-section'><ContactSection /></div>
             </MDBContainer>
         </motion.div>
     );

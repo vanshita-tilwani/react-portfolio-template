@@ -20,6 +20,10 @@
 
 }
 
+#contact-section {
+    min-height: 550px;
+}
+
 .theme-menu {
     background-color: var(--imp-background-color) !important;
     color: var(--imp-text-color) !important;
