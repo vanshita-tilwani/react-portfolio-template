@@ -1,18 +1,11 @@
-import {
-    MDBCol,
-    MDBRow,
-} from "mdb-react-ui-kit";
-
-import '../../main.css';
+import { Section } from '@radix-ui/themes'
 
 function SectionHeading({ heading }) {
-    return (<MDBRow className="justify-content-center text-center">
-        <MDBCol className="justify-content-center text-white text-center p-5">
-            <div>
-                <h5>{heading}</h5>
-            </div>
-        </MDBCol>
-    </MDBRow >);
+    return (<Section>
+        <div className="justify-content-center text-white text-center p-4">
+            <h3>{heading}</h3>
+        </div>
+    </Section >);
 }
 
 export default SectionHeading;
