@@ -13,8 +13,8 @@ function Footer() {
         <div className='font-css'>Made with love<HeartFilledIcon className='icon-color mb-1' /></div>
       </NavigationMenu.Item>
       <NavigationMenu.Item className='NavigationMenuList'>
-        <NavigationMenu.Link href='https://github.com/vanshita-tilwani'><GitHubLogoIcon className="me-4 icon-color" /></NavigationMenu.Link>
-        <NavigationMenu.Link href='https://www.linkedin.com/in/vanshita-tilwani/'><LinkedInLogoIcon className='me-4 icon-color' /></NavigationMenu.Link>
+        <NavigationMenu.Link href='https://github.com/vanshita-tilwani'><GitHubLogoIcon width={20} height={20} className="me-4 icon-color" /></NavigationMenu.Link>
+        <NavigationMenu.Link href='https://www.linkedin.com/in/vanshita-tilwani/'><LinkedInLogoIcon width={20} height={20} className='me-4 icon-color' /></NavigationMenu.Link>
       </NavigationMenu.Item>
     </NavigationMenu.Root>
   );
