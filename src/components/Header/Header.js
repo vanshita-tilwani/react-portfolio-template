@@ -1,7 +1,7 @@
 import React from 'react';
-import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import classNames from 'classnames';
-import { CaretDownIcon, BackpackIcon } from '@radix-ui/react-icons';
+import * as NavigationMenu from '@radix-ui/react-navigation-menu';
+import { CaretDownIcon, BackpackIcon, HomeIcon, PersonIcon, LaptopIcon, CodeIcon, FileTextIcon } from '@radix-ui/react-icons';
 import portfolio_logo from "../../assets/logo.png";
 import '../../main.css'
 
@@ -16,12 +16,14 @@ function Header() {
         <NavigationMenu.List className="NavigationMenuList p-3">
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/">
-              Home
+              <div>
+                <HomeIcon className='me-1' />Home
+              </div>
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
             <NavigationMenu.Trigger className="NavigationMenuTrigger">
-              About <CaretDownIcon className="CaretDown" aria-hidden />
+              <PersonIcon />About <CaretDownIcon className="CaretDown" aria-hidden />
             </NavigationMenu.Trigger>
             <NavigationMenu.Content className="NavigationMenuContent">
               <ul className="List one">
@@ -82,19 +84,19 @@ function Header() {
 
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/">
-              Work Experience
+              <LaptopIcon className='mb-1 me-1' />Work Experience
             </NavigationMenu.Link>
           </NavigationMenu.Item>
 
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/">
-              Projects
+              <CodeIcon className='me-1 mb-1' />Projects
             </NavigationMenu.Link>
           </NavigationMenu.Item>
 
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/ß">
-              Resume
+              <FileTextIcon className='me-1' />Resume
             </NavigationMenu.Link>
           </NavigationMenu.Item>
 
