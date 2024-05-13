@@ -6,4 +6,17 @@ const openEmail = () => {
     window.open(mailtoLink);
 }
 
-export { openEmail }
+const routeAnimation = {
+    initial: {
+        y: "90vh",
+    },
+    final: {
+        y: "0vh",
+        transition: {
+            type: "spring",
+            mass: 0.4,
+        },
+    },
+};
+
+export { openEmail, routeAnimation }
