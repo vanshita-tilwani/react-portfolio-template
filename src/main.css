@@ -1,4 +1,9 @@
 /* Common CSS - used across all the component! */
+@import '@radix-ui/colors/black-alpha.css';
+@import '@radix-ui/colors/indigo.css';
+@import '@radix-ui/colors/mauve.css';
+@import '@radix-ui/colors/purple.css';
+@import '@radix-ui/colors/violet.css';
 
 :root {
     --imp-text-color: white;
@@ -109,7 +114,7 @@
 
 .home-container {
     width: 100vw !important;
-    height: 100vh !important;
+    height: 85vh !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -168,12 +173,6 @@
 }
 
 /* Header Section */
-
-@import '@radix-ui/colors/black-alpha.css';
-@import '@radix-ui/colors/indigo.css';
-@import '@radix-ui/colors/mauve.css';
-@import '@radix-ui/colors/purple.css';
-@import '@radix-ui/colors/violet.css';
 
 /* reset */
 button,
