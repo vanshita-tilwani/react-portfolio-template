@@ -14,7 +14,8 @@
     --imp-translucent-color: rgba(0, 0, 0, 0.175);
 }
 
-html {
+html,
+.App {
     background: var(--imp-background-color);
 }
 
