@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import { CaretDownIcon, BackpackIcon, HomeIcon, PersonIcon, LaptopIcon, CodeIcon, FileTextIcon } from '@radix-ui/react-icons';
 import portfolio_logo from "../../assets/logo.png";
+import about_logo from "../../assets/about_header.png"
 import '../../main.css'
 
 function Header() {
@@ -30,13 +31,11 @@ function Header() {
                 <li style={{ gridRow: 'span 3' }}>
                   <NavigationMenu.Link asChild>
                     <a className="Callout" href="/about">
-                      <svg aria-hidden width="38" height="38" viewBox="0 0 25 25" fill="white">
-                        <path d="M12 25C7.58173 25 4 21.4183 4 17C4 12.5817 7.58173 9 12 9V25Z"></path>
-                        <path d="M12 0H4V8H12V0Z"></path>
-                        <path d="M17 8C19.2091 8 21 6.20914 21 4C21 1.79086 19.2091 0 17 0C14.7909 0 13 1.79086 13 4C13 6.20914 14.7909 8 17 8Z"></path>
-                      </svg>
-                      <div className="CalloutHeading">Radix Primitives</div>
-                      <p className="CalloutText">Unstyled, accessible components for React.</p>
+                      <img src={about_logo}
+                        width={100}
+                        height={100} />
+                      <div className="CalloutHeading">Get to know me</div>
+                      <p className="CalloutText">I'd love for you to discover more about me</p>
                     </a>
                   </NavigationMenu.Link>
                 </li>
@@ -54,9 +53,9 @@ function Header() {
             </NavigationMenu.Content>
           </NavigationMenu.Item>
 
-          {/*<NavigationMenu.Item>
+          <NavigationMenu.Item>
             <NavigationMenu.Trigger className="NavigationMenuTrigger">
-              Overview <CaretDownIcon className="CaretDown" aria-hidden />
+              <CodeIcon className='me-1 mb-1' />Projects <CaretDownIcon className="CaretDown" aria-hidden />
             </NavigationMenu.Trigger>
             <NavigationMenu.Content className="NavigationMenuContent">
               <ul className="List two">
@@ -80,17 +79,11 @@ function Header() {
                 </ListItem>
               </ul>
             </NavigationMenu.Content>
-  </NavigationMenu.Item>*/}
-
-          <NavigationMenu.Item>
-            <NavigationMenu.Link className="NavigationMenuLink" href="/">
-              <LaptopIcon className='mb-1 me-1' />Work Experience
-            </NavigationMenu.Link>
           </NavigationMenu.Item>
 
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/">
-              <CodeIcon className='me-1 mb-1' />Projects
+              <LaptopIcon className='mb-1 me-1' />Work Experience
             </NavigationMenu.Link>
           </NavigationMenu.Item>
 
