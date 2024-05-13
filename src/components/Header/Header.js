@@ -56,7 +56,7 @@ function Header() {
 
           <NavigationMenu.Item>
             <NavigationMenu.Trigger className="NavigationMenuTrigger">
-              <CodeIcon className='me-1 mb-1' />Projects <CaretDownIcon className="CaretDown" aria-hidden />
+              <CodeIcon />Projects <CaretDownIcon className="CaretDown" aria-hidden />
             </NavigationMenu.Trigger>
             <NavigationMenu.Content className="NavigationMenuContent">
               <ul className="List two">
