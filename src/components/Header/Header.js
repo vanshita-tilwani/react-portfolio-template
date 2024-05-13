@@ -33,7 +33,8 @@ function Header() {
                     <a className="Callout" href="/about">
                       <img src={about_logo}
                         width={100}
-                        height={100} />
+                        height={100}
+                        alt='' />
                       <div className="CalloutHeading">Get to know me</div>
                       <p className="CalloutText">I'd love for you to discover more about me</p>
                     </a>
