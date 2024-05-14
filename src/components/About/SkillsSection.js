@@ -1,7 +1,4 @@
-import {
-    MDBCol,
-    MDBRow,
-} from "mdb-react-ui-kit";
+import { Section } from '@radix-ui/themes'
 import { DiJavascript1, DiReact, DiJava, DiPython, DiDlang, DiNodejs, DiRuby } from "react-icons/di";
 import { SiMysql, SiMicrosoftsqlserver, SiMongodb, SiRedis, SiPostman, SiKibana, SiElasticsearch, SiIntellijidea } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
@@ -18,8 +15,8 @@ function SkillsSection() {
     return (
         <div>
             <SectionHeading heading={"Skills & Proficiencies: My Bag of Tricks (no rabbits included... unless you're into that)"}></SectionHeading>
-            <MDBRow className="justify-content-center text-center">
-                <MDBCol className="justify-content-center text-center p-5">
+            <Section className="justify-content-center text-center">
+                <div className="justify-content-center text-center p-5">
                     <Variants elements={[<Animation><DiJava size='5rem' /></Animation>,
                     <Animation><TbBrandCSharp className="mx-auto" size='4rem' /></Animation>,
                     <Animation><DiJavascript1 size='4rem' /></Animation>,
@@ -39,8 +36,8 @@ function SkillsSection() {
                     <Animation><SiElasticsearch size='3.5rem' /></Animation>,
                     <Animation><SiKibana size='3.5rem' /></Animation>]}>
                     </Variants>
-                </MDBCol>
-            </MDBRow>
+                </div>
+            </Section>
             <SectionFooter></SectionFooter>
         </div>
     );
