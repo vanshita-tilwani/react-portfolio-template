@@ -1,9 +1,11 @@
 import { Section } from '@radix-ui/themes'
 
-function SectionHeading({ heading }) {
+function SectionHeading({ level, heading }) {
+    const HeadingTag = level || 'h3';
+
     return (<Section>
         <div className="justify-content-center text-white text-center p-4">
-            <h3>{heading}</h3>
+            <HeadingTag>{heading}</HeadingTag>
         </div>
     </Section >);
 }
