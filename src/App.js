@@ -4,14 +4,7 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import { routeAnimation } from "./components/common/Util";
 import { motion, AnimatePresence } from "framer-motion";
-
-import {
-  Route,
-  Routes,
-  Navigate,
-  BrowserRouter,
-  useLocation
-} from "react-router-dom";
+import { Route, Routes, Navigate, BrowserRouter, useLocation } from "react-router-dom";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './main.css'
 
