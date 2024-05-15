@@ -128,6 +128,10 @@ img {
     margin-top: 0.5rem !important;
 }
 
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
 .mt-5 {
     margin-top: 3rem !important;
 }
@@ -268,7 +272,7 @@ img {
 }
 
 .card-details {
-    border-radius: 2em !important;
+    border-radius: 2em;
     backdrop-filter: blur(15px) !important;
     border: 2px solid var(--imp-translucent-color) !important;
     padding: 2rem;

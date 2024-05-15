@@ -1,6 +1,5 @@
 import SectionHeading from "./SectionHeading";
-import { MDBCol, MDBRow, MDBCard, MDBCardBody } from "mdb-react-ui-kit";
-import { EnvelopeAt } from "react-bootstrap-icons";
+import { BsEnvelopeAt, BsLinkedin } from "react-icons/bs";
 import SlideInTransition from "../SlideInTransition";
 import { openEmail } from "../Util";
 import '../../main.css';
@@ -9,25 +8,44 @@ function ContactSection() {
     return (
         <div>
             <SectionHeading heading={"Hit Me Up: Let's Chat (preferably not carrier pigeon)"}></SectionHeading>
-            <MDBRow className="justify-content-center text-center">
+            <div className="justify-content-center text-center">
                 <div className="d-flex justify-content-center w-50">
-                    <MDBCol className="justify-content-center text-center p-3">
+                    <div className="justify-content-center text-center m-7">
                         <SlideInTransition>
-                            <MDBCard className="py-5 text-white rounded-circle shadow-2-strong m-4 card-details">
-                                <MDBCardBody>
+                            <div className="py-5 text-white m-4 card-details">
+                                <div>
                                     <div className="text-white">
-                                        <EnvelopeAt className="p-2" width={80} height={80} onClick={openEmail} size='5rem' />
-                                        <div className="m-2">
+                                        <BsEnvelopeAt className="p-2" width={80} height={80} onClick={openEmail} size='5rem' />
+                                        <div className="mt-3">
                                             Want to chat? Shoot me an email.<br />
-                                            Whether it's about my projects, ideas for collaboration, or just to say hi, I'm all ears! Looking forward to hearing from you!
+                                            Whether it's about my projects, ideas for collaboration, or just to say hi, I'm all ears!
                                         </div>
                                     </div>
-                                </MDBCardBody>
-                            </MDBCard>
+                                </div>
+                            </div>
                         </SlideInTransition>
-                    </MDBCol>
+                    </div>
+
+                    <div className="justify-content-center text-center m-7">
+                        <SlideInTransition>
+                            <div className="py-5 text-white m-4 card-details">
+                                <div>
+                                    <div className="text-white">
+                                        <a href="https://www.linkedin.com/in/vanshita-tilwani/"><BsLinkedin width={80} height={80} size='5rem' /></a>
+                                        <div className="mt-3">
+                                            I'd love to connect with you all here on social media! <br />
+                                            Let's share our experiences, and insights.
+                                            Feel free to follow me or drop an inmail!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </SlideInTransition>
+                    </div>
+
+
                 </div>
-            </MDBRow>
+            </div>
         </div>
     );
 }
