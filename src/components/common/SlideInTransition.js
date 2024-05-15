@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import '../main.css';
+import '../../main.css';
 
 function SlideInTransition({ children }) {
     const [isVisible, setIsVisible] = useState(false);

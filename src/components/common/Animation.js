@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import '../main.css';
+import '../../main.css';
 
 function Animation({ children }) {
     return (

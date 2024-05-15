@@ -1,7 +1,7 @@
-import Animation from "../Animation";
+import Animation from "../common/Animation";
 import { BsPersonRaisedHand, BsLaptop, BsBuildings, BsCodeSlash, BsPersonWorkspace, BsBalloonHeart } from "react-icons/bs";
-import SectionHeading from "./SectionHeading";
-import SectionFooter from "./SectionFooter";
+import SectionHeading from "../common/SectionHeading";
+import SectionFooter from "../common/SectionFooter";
 import about_logo from '../../assets/about_logo.png';
 import '../../main.css';
 

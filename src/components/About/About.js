@@ -3,7 +3,7 @@ import BioSection from './BioSection';
 import SkillsSection from './SkillsSection';
 import ContactSection from './ContactSection';
 import { MDBContainer } from "mdb-react-ui-kit";
-import { routeAnimation } from "../Util";
+import { routeAnimation } from "../common/Util";
 import { motion } from "framer-motion";
 import '../../main.css';
 

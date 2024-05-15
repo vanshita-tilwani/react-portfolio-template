@@ -1,7 +1,7 @@
-import SectionHeading from "./SectionHeading";
 import { BsEnvelopeAt, BsLinkedin } from "react-icons/bs";
-import SlideInTransition from "../SlideInTransition";
-import { openEmail } from "../Util";
+import SectionHeading from "../common/SectionHeading";
+import SlideInTransition from "../common/SlideInTransition";
+import { openEmail } from "../common/Util";
 import '../../main.css';
 
 function ContactSection() {

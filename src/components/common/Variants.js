@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import '../main.css';
+import '../../main.css';
 
 const container = {
     hidden: { opacity: 1, scale: 0 },

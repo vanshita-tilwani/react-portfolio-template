@@ -4,10 +4,10 @@ import { SiMysql, SiMicrosoftsqlserver, SiMongodb, SiRedis, SiPostman, SiKibana,
 import { TbBrandCSharp } from "react-icons/tb";
 import { FaGithub } from 'react-icons/fa'
 import { VscVscode } from "react-icons/vsc";
-import Animation from "../Animation";
-import Variants from "../Variants";
-import SectionHeading from "./SectionHeading";
-import SectionFooter from "./SectionFooter";
+import Animation from "../common/Animation";
+import Variants from "../common/Variants";
+import SectionHeading from "../common/SectionHeading";
+import SectionFooter from "../common/SectionFooter";
 import '../../main.css';
 
 function SkillsSection() {

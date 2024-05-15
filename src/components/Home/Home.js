@@ -1,6 +1,6 @@
 import MyInfo from "./MyInfo";
 import video from "../../assets/home_bg.mp4"
-import { routeAnimation } from "../Util";
+import { routeAnimation } from "../common/Util";
 import { motion } from "framer-motion";
 import "../../main.css"
 
