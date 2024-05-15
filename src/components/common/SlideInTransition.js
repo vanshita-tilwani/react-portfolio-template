@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import '../../main.css';
 
-function SlideInTransition({ children }) {
+function SlideInTransition({ mode, children }) {
     const [isVisible, setIsVisible] = useState(false);
     const targetRef = useRef(null);
 
@@ -31,7 +31,7 @@ function SlideInTransition({ children }) {
             <CSSTransition
                 in={isVisible}
                 timeout={2000}
-                classNames="transition"
+                classNames={mode === 'left' ? 'transition-left' : 'transition-right'}
                 unmountOnExit>
                 {children}
             </CSSTransition>

@@ -181,29 +181,38 @@ img {
     height: 100%;
 }
 
-.transition-enter {
+.transition-left-enter {
     opacity: 0;
     transform: translateX(-100%);
 }
 
-.transition-enter-active {
+.transition-right-enter {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.transition-left-enter-active,
+.transition-right-enter-active {
     opacity: 1;
     transform: translateX(0);
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
     transition-duration: 2s;
 }
 
-.transition-enter-done {
+.transition-left-enter-done,
+.transition-right-enter-done {
     opacity: 1;
     transform: translateX(0);
 }
 
-.transition-exit {
+.transition-left-exit,
+.transition-right-exit {
     opacity: 1;
     transform: translateX(0);
 }
 
-.transition-exit-active {
+.transition-left-exit-active,
+.transition-right-exit-active {
     opacity: 0;
     transform: translateX(-100%);
     transition: opacity 0.5s ease-in, transform 0.5s ease-in;

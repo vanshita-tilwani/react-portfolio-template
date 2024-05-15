@@ -11,7 +11,7 @@ function ContactSection() {
             <div className="justify-content-center text-center">
                 <div className="d-flex justify-content-center w-50">
                     <div className="justify-content-center text-center m-7">
-                        <SlideInTransition>
+                        <SlideInTransition mode='left'>
                             <div className="py-5 text-white m-4 card-details">
                                 <div>
                                     <div className="text-white">
@@ -27,7 +27,7 @@ function ContactSection() {
                     </div>
 
                     <div className="justify-content-center text-center m-7">
-                        <SlideInTransition>
+                        <SlideInTransition mode='right'>
                             <div className="py-5 text-white m-4 card-details">
                                 <div>
                                     <div className="text-white">
