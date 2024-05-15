@@ -247,9 +247,6 @@ img {
 }
 
 .about-container {
-    background-color: var(--imp-background-color) !important;
-    background-size: cover;
-    background-position: center;
     width: 100vw !important;
     height: 105vh !important;
     overflow: scroll;
