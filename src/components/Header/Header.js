@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
-import { CaretDownIcon, BackpackIcon, HomeIcon, PersonIcon, LaptopIcon, CodeIcon, FileTextIcon } from '@radix-ui/react-icons';
+import { CaretDownIcon, BackpackIcon, HomeIcon, PersonIcon, LaptopIcon, CodeIcon, FileTextIcon, IdCardIcon } from '@radix-ui/react-icons';
 import portfolio_logo from "../../assets/logo.png";
 import about_logo from "../../assets/about_header.png"
 import '../../main.css'
@@ -53,6 +53,16 @@ function Header() {
             </NavigationMenu.Content>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
+            <NavigationMenu.Link className="NavigationMenuLink" href="/education">
+              <IdCardIcon className='mb-1 me-1' />Education
+            </NavigationMenu.Link>
+          </NavigationMenu.Item>
+          <NavigationMenu.Item>
+            <NavigationMenu.Link className="NavigationMenuLink" href="/">
+              <LaptopIcon className='mb-1 me-1' />Work Experience
+            </NavigationMenu.Link>
+          </NavigationMenu.Item>
+          <NavigationMenu.Item>
             <NavigationMenu.Trigger className="NavigationMenuTrigger">
               <CodeIcon />Projects <CaretDownIcon className="CaretDown" aria-hidden />
             </NavigationMenu.Trigger>
@@ -78,11 +88,6 @@ function Header() {
                 </ListItem>
               </ul>
             </NavigationMenu.Content>
-          </NavigationMenu.Item>
-          <NavigationMenu.Item>
-            <NavigationMenu.Link className="NavigationMenuLink" href="/">
-              <LaptopIcon className='mb-1 me-1' />Work Experience
-            </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/ß">
