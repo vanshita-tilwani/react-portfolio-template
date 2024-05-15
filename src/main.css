@@ -31,6 +31,10 @@ img {
     size: 20;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .align-items-center {
     align-items: center !important;
 }
