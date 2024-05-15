@@ -278,7 +278,7 @@ img {
     padding: 2rem;
     align-content: center;
     color: var(--imp-text-color);
-    background: radial-gradient(var(--imp-background-color), var(--imp-background-color)) padding-box, linear-gradient(var(--angle),
+    background: radial-gradient(var(--imp-background-color), #0f0f23) padding-box, linear-gradient(var(--angle),
             var(--imp-background-color),
             var(--imp-icon-color)) border-box !important;
     animation: 4s cardanimation linear infinite;
