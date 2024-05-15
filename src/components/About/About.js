@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import BioSection from './BioSection';
 import SkillsSection from './SkillsSection';
 import ContactSection from './ContactSection';
-import { MDBContainer } from "mdb-react-ui-kit";
 import { routeAnimation } from "../common/Util";
 import { motion } from "framer-motion";
 import '../../main.css';
@@ -31,11 +30,9 @@ function About() {
             animate="final"
             exit="exit"
             className="about-container">
-            <MDBContainer className="max-dimension">
-                <div ref={bioSectionRef} id='bio-section'><BioSection /></div>
-                <div ref={skillsSectionRef} id='skills-section'><SkillsSection /></div>
-                <div ref={contactSectionRef} id='contact-section'><ContactSection /></div>
-            </MDBContainer>
+            <div ref={bioSectionRef} id='bio-section'><BioSection /></div>
+            <div ref={skillsSectionRef} id='skills-section'><SkillsSection /></div>
+            <div ref={contactSectionRef} id='contact-section'><ContactSection /></div>
         </motion.div>
     );
 }
