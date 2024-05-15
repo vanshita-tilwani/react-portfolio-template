@@ -6,7 +6,6 @@ import Education from "./components/Education/Education";
 import { routeAnimation } from "./components/common/Util";
 import { motion, AnimatePresence } from "framer-motion";
 import { Route, Routes, Navigate, BrowserRouter, useLocation } from "react-router-dom";
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './main.css'
 
 function App() {
