@@ -1,6 +1,6 @@
 import React from 'react';
-import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
-import { HamburgerMenuIcon, DotFilledIcon, } from '@radix-ui/react-icons';
+import * as Switch from '@radix-ui/react-switch';
+import { ColorWheelIcon } from '@radix-ui/react-icons';
 
 function ThemeToggler() {
     const [theme, setTheme] = React.useState('neon-dark-violet');
@@ -18,32 +18,17 @@ function ThemeToggler() {
         }
     };
     return (
-        <DropdownMenu.Root onSelect={handleDropdownSelect}>
-            <DropdownMenu.Trigger asChild >
-                <button className="NavigationMenuTrigger" aria-label="Customise options">
-                    <HamburgerMenuIcon />
-                </button>
-            </DropdownMenu.Trigger>
 
-            <DropdownMenu.Portal>
-                <DropdownMenu.Content className="NavigationMenuViewport" sideOffset={5}>
-                    <DropdownMenu.RadioGroup value={theme} onValueChange={handleDropdownSelect}>
-                        <DropdownMenu.RadioItem className="DropdownMenuRadioItem" value="neon-dark-pink">
-                            <DropdownMenu.ItemIndicator className="DropdownMenuItemIndicator">
-                                <DotFilledIcon />
-                            </DropdownMenu.ItemIndicator>
-                            Dark Neon Pink
-                        </DropdownMenu.RadioItem>
-                        <DropdownMenu.RadioItem className="DropdownMenuRadioItem" value="neon-dark-violet">
-                            <DropdownMenu.ItemIndicator className="DropdownMenuItemIndicator">
-                                <DotFilledIcon />
-                            </DropdownMenu.ItemIndicator>
-                            Dark Neon Violet
-                        </DropdownMenu.RadioItem>
-                    </DropdownMenu.RadioGroup>
-                </DropdownMenu.Content>
-            </DropdownMenu.Portal>
-        </DropdownMenu.Root>
+        <div>
+
+            <label className="text-white" htmlFor="airplane-mode">
+                <ColorWheelIcon className='me-1 mb-1' /> Theme
+            </label>
+            <Switch.Root className="SwitchRoot ms-4" id="airplane-mode">
+                <Switch.Thumb className="SwitchThumb" />
+            </Switch.Root>
+        </div>
+
     );
 };
 
