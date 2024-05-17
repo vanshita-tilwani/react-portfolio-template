@@ -58,7 +58,7 @@ function Header() {
             </NavigationMenu.Link>
           </NavigationMenu.Item>
           <NavigationMenu.Item>
-            <NavigationMenu.Link className="NavigationMenuLink" href="/">
+            <NavigationMenu.Link className="NavigationMenuLink" href="/experience">
               <LaptopIcon className='mb-1 me-1' />Work Experience
             </NavigationMenu.Link>
           </NavigationMenu.Item>
