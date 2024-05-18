@@ -59,7 +59,7 @@ button:hover {
 }
 
 .text-white {
-    color: var(--imp-text-color);
+    color: var(--imp-text-color) !important;
 }
 
 .p-3 {
@@ -271,8 +271,7 @@ button:hover {
 }
 
 .about-container,
-.education-container,
-.experience-container {
+.education-container {
     width: 100vw !important;
     height: 105vh !important;
     overflow: scroll;
