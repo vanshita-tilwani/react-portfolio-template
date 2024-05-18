@@ -18,7 +18,6 @@ function Experience() {
             'Contributed to the development of a Reservation System, empowering users to create and release reservations on specific machines for executing various commands.'],
     }];
 
-
     return (
         <div>
             <SectionHeading heading={'From 9 to 5: The Saga of My Work Life'} />
@@ -27,14 +26,17 @@ function Experience() {
                 slideShow
                 textDensity={'LOW'}
                 enableLayoutSwitch={false}
+                enableQuickJump={false}
                 flipLayout={true}
                 theme={{
-                    primary: 'white',
-                    secondary: '#c770f0',
-                    cardBgColor: 'black',
-                    titleColor: 'white',
-                    titleColorActive: 'white',
-                    toolbarBgColor: 'black'
+                    primary: 'var(--imp-text-color)',
+                    secondary: 'var(--imp-icon-color)',
+                    cardBgColor: 'var(--imp-background-color)',
+                    titleColor: 'var(--imp-text-color)',
+                    titleColorActive: 'var(--imp-text-color)',
+                    toolbarBgColor: 'var(--imp-background-color)',
+                    toolbarBtnBgColor: 'var(--imp-background-color)',
+                    toolbarTextColor: 'var(--imp-text-color)'
                 }}
                 classNames={{
                     card: 'card-details',
