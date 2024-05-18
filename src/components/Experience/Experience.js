@@ -99,9 +99,9 @@ function Experience() {
                 }}
                 classNames={{
                     card: 'card-details',
-                    cardSubTitle: 'text-white',
+                    cardSubTitle: 'text-white d-flex justify-content-center',
                     cardText: 'text-white',
-                    cardTitle: 'text-white',
+                    cardTitle: 'text-white d-flex justify-content-center',
                     controls: 'chrono-toolbar'
                 }}>
                 <div className="chrono-icons">
