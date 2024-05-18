@@ -1,7 +1,5 @@
 import { Chrono } from "react-chrono";
 import SectionHeading from "../common/SectionHeading";
-import SlideInTransition from "../common/SlideInTransition";
-import Animation from "../common/Animation";
 import sequoia from '../../assets/sequoia.png';
 import fulfil from '../../assets/fulfil.png';
 import servicenow from '../../assets/servicenow.jpeg';
