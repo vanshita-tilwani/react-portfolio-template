@@ -14,6 +14,24 @@
     --imp-translucent-color: rgba(0, 0, 0, 0.175);
 }
 
+p[class^='TitleDescriptionStyle'],
+p[class*=' TitleDescriptionStyle'] {
+    color: var(--imp-text-color);
+}
+
+.ToolbarWrapper-sc-exupb5-0 {
+    justify-content: center;
+}
+
+.chrono-toolbar {
+    float: right;
+
+}
+
+.chrono-toolbar li:not(:last-child) {
+    display: none;
+}
+
 html,
 body,
 .App {
