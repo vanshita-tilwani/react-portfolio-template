@@ -89,11 +89,11 @@ function Header() {
               </ul>
             </NavigationMenu.Content>
           </NavigationMenu.Item>
-          <NavigationMenu.Item>
+          {/*<NavigationMenu.Item>
             <NavigationMenu.Link className="NavigationMenuLink" href="/ß">
               <FileTextIcon className='me-1' />Resume
             </NavigationMenu.Link>
-          </NavigationMenu.Item>
+          </NavigationMenu.Item>*/}
           <NavigationMenu.Indicator className="NavigationMenuIndicator">
             <div className="Arrow" />
           </NavigationMenu.Indicator>
