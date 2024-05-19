@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
-import { CaretDownIcon, BackpackIcon, HomeIcon, PersonIcon, LaptopIcon, CodeIcon, FileTextIcon, IdCardIcon } from '@radix-ui/react-icons';
+import { CaretDownIcon, BackpackIcon, HomeIcon, PersonIcon, LaptopIcon, CodeIcon, IdCardIcon } from '@radix-ui/react-icons';
 import portfolio_logo from "../../assets/logo.png";
 import about_logo from "../../assets/about_header.png"
 import '../../main.css'
