@@ -1,7 +1,7 @@
 function Resume() {
 
     return (
-        <div>
+        <div className="resume-container text-white">
             Resume
         </div>
     );
